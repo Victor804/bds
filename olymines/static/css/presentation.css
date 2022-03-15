@@ -2548,22 +2548,21 @@ input, select, textarea {
 			}
 
 			.tiles article:nth-child(10n - 2):before {
-				background-image: url("/static/images/respoWES.png");
+				background-image: url("/static/images/respoevent.jpg");
 				background-position: center;
 				background-repeat: no-repeat;
 				background-size: cover;
 			}
 
 			.tiles article:nth-child(10n - 1):before {
-				background-image: url("/static/images/respStock.png");
+				background-image: url("/static/images/respoWES.png");
 				background-position: center;
 				background-repeat: no-repeat;
 				background-size: cover;
 			}
 
 			.tiles article:nth-child(10n):before {
-				background-color: #2a2f4a;
-				opacity: 72%;
+				background-image: url("/static/images/respStock.png");
 				background-position: center;
 				background-repeat: no-repeat;
 				background-size: cover;
