@@ -2499,35 +2499,35 @@ input, select, textarea {
 			}
 
 			.tiles article:nth-child(10n - 9):before {
-				background-image: url("/static/images/prez.png");
+				background-image: url("/static/images/prez.jpg");
 				background-position: center;
 				background-repeat: no-repeat;
 				background-size: cover;
 			}
 
 			.tiles article:nth-child(10n - 8):before {
-				background-image: url("/static/images/vicePrez.png");
+				background-image: url("/static/images/vicePrez.jpg");
 				background-position: center;
 				background-repeat: no-repeat;
 				background-size: cover;
 			}
 
 			.tiles article:nth-child(10n - 7):before {
-				background-image: url("/static/images/secgen.png");
+				background-image: url("/static/images/secgen.jpg");
 				background-position: center;
 				background-repeat: no-repeat;
 				background-size: cover;
 				}
 
 			.tiles article:nth-child(10n - 6):before {
-				background-image: url("/static/images/trez.png");
+				background-image: url("/static/images/trez.jpg");
 				background-position: center;
 				background-repeat: no-repeat;
 				background-size: cover;
 				}
 
 			.tiles article:nth-child(10n - 5):before {
-				background-image: url("/static/images/coord.png");
+				background-image: url("/static/images/coord.jpg");
 				background-position: center;
 				background-repeat: no-repeat;
 				background-size: cover;
@@ -2541,7 +2541,7 @@ input, select, textarea {
 			}
 
 			.tiles article:nth-child(10n - 3):before {
-				background-image: url("/static/images/respoPart.png");
+				background-image: url("/static/images/respoPart.jpg");
 				background-position: center;
 				background-repeat: no-repeat;
 				background-size: cover;
@@ -2555,14 +2555,14 @@ input, select, textarea {
 			}
 
 			.tiles article:nth-child(10n - 1):before {
-				background-image: url("/static/images/respoWES.png");
+				background-image: url("/static/images/respoWES.jpg");
 				background-position: center;
 				background-repeat: no-repeat;
 				background-size: cover;
 			}
 
 			.tiles article:nth-child(10n):before {
-				background-image: url("/static/images/respStock.png");
+				background-image: url("/static/images/respStock.jpg");
 				background-position: center;
 				background-repeat: no-repeat;
 				background-size: cover;
