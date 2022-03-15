@@ -2498,41 +2498,75 @@ input, select, textarea {
 				width: 60%;
 			}
 
-			.tiles article:nth-child(6n - 5):before {
-				background-image: url("/static/images/groupe.jpg");
+			.tiles article:nth-child(10n - 9):before {
+				background-image: url("/static/images/prez.png");
 				background-position: center;
 				background-repeat: no-repeat;
 				background-size: cover;
 			}
 
-			.tiles article:nth-child(6n - 4):before {
-				background-image: url("/static/images/ecole.jpg");
+			.tiles article:nth-child(10n - 8):before {
+				background-image: url("/static/images/vicePrez.png");
 				background-position: center;
 				background-repeat: no-repeat;
 				background-size: cover;
 			}
 
-			.tiles article:nth-child(6n - 3):before {
-				background-image: url("/static/images/aix.jpg");
+			.tiles article:nth-child(10n - 7):before {
+				background-image: url("/static/images/secgen.png");
 				background-position: center;
 				background-repeat: no-repeat;
 				background-size: cover;
 				}
 
-			.tiles article:nth-child(6n - 2):before {
+			.tiles article:nth-child(10n - 6):before {
+				background-image: url("/static/images/trez.png");
+				background-position: center;
+				background-repeat: no-repeat;
+				background-size: cover;
+				}
+
+			.tiles article:nth-child(10n - 5):before {
+				background-image: url("/static/images/coord.png");
+				background-position: center;
+				background-repeat: no-repeat;
+				background-size: cover;
+			}
+
+			.tiles article:nth-child(10n - 4):before {
+				background-image: url("/static/images/respoCom.jpg");
+				background-position: center;
+				background-repeat: no-repeat;
+				background-size: cover;
+			}
+
+			.tiles article:nth-child(10n - 3):before {
+				background-image: url("/static/images/respoPart.png");
+				background-position: center;
+				background-repeat: no-repeat;
+				background-size: cover;
+			}
+
+			.tiles article:nth-child(10n - 2):before {
+				background-image: url("/static/images/respoWES.png");
+				background-position: center;
+				background-repeat: no-repeat;
+				background-size: cover;
+			}
+
+			.tiles article:nth-child(10n - 1):before {
+				background-image: url("/static/images/respStock.png");
+				background-position: center;
+				background-repeat: no-repeat;
+				background-size: cover;
+			}
+
+			.tiles article:nth-child(10n):before {
 				background-color: #2a2f4a;
 				opacity: 72%;
 				background-position: center;
 				background-repeat: no-repeat;
 				background-size: cover;
-				}
-
-			.tiles article:nth-child(6n - 1):before {
-				background-color: #8ea9e8;
-			}
-
-			.tiles article:nth-child(6n):before {
-				background-color: #87c5a4;
 			}
 
 		@media screen and (max-width: 1280px) {
