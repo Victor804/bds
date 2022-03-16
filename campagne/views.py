@@ -10,5 +10,5 @@ def chart(request):
     return render(request, "chart.html", {"bleu":Team.objects.filter(color="bleu").get().score,
                                           "jaune":Team.objects.filter(color="jaune").get().score,
                                           "violet":Team.objects.filter(color="violet").get().score,
-                                          "vert":Team.objects.filter(color="verte").get().score,
+                                          "vert":Team.objects.filter(color="vert").get().score,
                                           "rouge":Team.objects.filter(color="rouge").get().score})
