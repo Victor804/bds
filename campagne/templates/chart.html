@@ -1,0 +1,38 @@
+<html>
+  <head>
+    <title>Chart</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+    <meta http-equiv="refresh" content="2" >
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  </head>
+  <body>
+    <canvas id="bar-chart" width="1000" height="450"></canvas>
+    <script>
+      new Chart(document.getElementById("bar-chart"), {
+          type: 'bar',
+          data: {
+            labels: ["Bleu", "Jaune", "Violet", "Vert", "Rouge"],
+            datasets: [
+              {
+                label: "Score",
+                backgroundColor: ["#17acff", "#fff40d","#e42cc0","#3ae42c","#e42c2c"],
+                data: [{{ bleu }},{{ jaune }},{{ violet }},{{ vert }},{{ rouge }}]
+              }
+            ]
+          },
+          options: {
+            label: { display: false },
+            legend: { display: false },
+            title: {
+              display: false,
+            },
+            animation: {
+              duration: 0
+            }
+          }
+      });
+
+    </script>
+  </body>
+</html>

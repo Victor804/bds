@@ -40,6 +40,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'campagne'
 ]
 
 MIDDLEWARE = [
@@ -57,7 +58,7 @@ ROOT_URLCONF = 'bds.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [os.path.join(SETTINGS_PATH, 'olymines/templates')],
+        'DIRS': [os.path.join(SETTINGS_PATH, 'olymines/templates'), os.path.join(SETTINGS_PATH, 'campagne/templates')],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
