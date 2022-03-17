@@ -12,12 +12,12 @@
       new Chart(document.getElementById("bar-chart"), {
           type: 'bar',
           data: {
-            labels: ["Bleu", "Jaune", "Violet", "Vert", "Rouge"],
+            labels: ["Equipe 1", "Equipe 2",  "Equipe 3", "Equipe 4", "Equipe 5", "Equipe 6", "Equipe 7", "Equipe 8", "Equipe 9", "Equipe 10"],
             datasets: [
               {
                 label: "Score",
-                backgroundColor: ["#17acff", "#fff40d","#e42cc0","#3ae42c","#e42c2c"],
-                data: [{{ bleu }},{{ jaune }},{{ violet }},{{ vert }},{{ rouge }}]
+                backgroundColor: ["#2c5be4", "#ece32b","#d61cca","#1cd623","#e72d2d", "#1343cf", "#f8ff08", "#d70ab0", "#12d70a", "#d70a0a"],
+                data: [{{ equipe1 }}, {{ equipe2 }},{{ equipe3 }},{{ equipe4 }}, {{ equipe5 }}, {{ equipe6 }}, {{ equipe7 }}, {{ equipe8 }}, {{ equipe9 }}, {{ equipe10 }}]
               }
             ]
           },
